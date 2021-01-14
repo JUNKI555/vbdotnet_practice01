@@ -25,7 +25,7 @@ Module Program
 
         if x > 10 Then
             fuga = "Fuga x > 10"
-        Elseif x = 11
+        Elseif x = 11 Then
             fuga = "Fuga x = 10"
         Else
             fuga = "Fuga x < 10"
