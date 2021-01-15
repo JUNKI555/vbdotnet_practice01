@@ -12,7 +12,7 @@ Module Program
     End Function
 
     Function GetFuga(ByVal y As Integer) As String
-        Dim x As Integer = 11
+        Dim x As Integer = 13
         Dim fuga As String = "Fuga"
 
         if x > 10 Then
@@ -25,7 +25,7 @@ Module Program
 
         if x > 10 Then
             fuga = "Fuga x > 10"
-        Elseif x = 11 Then
+        Elseif x = 13 Then
             fuga = "Fuga x = 10"
         Else
             fuga = "Fuga x < 10"
